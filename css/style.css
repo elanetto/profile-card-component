@@ -1,17 +1,42 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-    background-color: black;
-    color: yellow;
+body {
+    height: 100vh;
 }
 
-h2 {
-    background-color: gold;
-    color: black;
+.main-box {
+    background-color: green;
+    width: 326px;
+    height: 374px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-h3 {
-    background-color: lightblue;
+.profile-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-box {
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.bottom-box-big-numbers {
+    font-family: 'Kumbh Sans', sans-serif;
+    size: 18px;
+    font-weight: bold;
+}
+
+.bottom-box-big-numbers {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
 }
